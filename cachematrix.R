@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix stores a inverted matrix in its own environment creating a
+## cached matrix which can be called without having to do the costly solve() more than once
 
-## W# creates "matrix" object that will cache its inverse.
+## Creates "matrix" object that will cache its inverse.
 
 makeCacheMatrix <- function(mat = matrix()){
   #reset value
