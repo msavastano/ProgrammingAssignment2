@@ -25,7 +25,8 @@ makeCacheMatrix <- function(mat = matrix()){
   list(set = set, get = get, setSolve = setSolve,  getSolve = getSolve)
 }
 
-## Write a short comment describing this function
+## Checks for stored matrix inversion in makeCacheMatrix to return
+## if it doesn't exist, it will do the inversion
 
 #param mat holds value passed from cacheInvMatrix
 cacheSolve<- function(mat){
