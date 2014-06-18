@@ -1,4 +1,4 @@
-## makeCacheMatrix stores a inverted matrix in its own environment creating a
+## MakeCacheMatrix stores a inverted matrix in its own environment creating a
 ## cached matrix which can be called without having to do the costly solve() more than once
 
 ## Creates "matrix" object that will cache its inverse.
