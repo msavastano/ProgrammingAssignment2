@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## MakeCacheMatrix stores a inverted matrix in its own environment creating a
+=======
+## makeCacheMatrix stores a inverted matrix in its own environment creating a
+>>>>>>> 741c99784ca020c872e51e5fd860242ae93ceefe
 ## cached matrix which can be called without having to do the costly solve() more than once
 
 ## Creates "matrix" object that will cache its inverse.
@@ -46,5 +50,8 @@ cacheSolve<- function(mat){
   mat$setSolve(value)
   value  
 }
+<<<<<<< HEAD
 
 ##End file
+=======
+>>>>>>> 741c99784ca020c872e51e5fd860242ae93ceefe
